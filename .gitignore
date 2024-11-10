@@ -1,0 +1,35 @@
+# Root #
+.DS_Store
+
+# backend #
+backend/node_modules
+
+backend/.env
+
+backend/.DS_Store
+
+# frontend #
+# logs #
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
+
+# editor directories and files #
+frontend/.vscode/*
+frontend/!.vscode/extensions.json
+frontend/.idea
+frontend/.DS_Store
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
